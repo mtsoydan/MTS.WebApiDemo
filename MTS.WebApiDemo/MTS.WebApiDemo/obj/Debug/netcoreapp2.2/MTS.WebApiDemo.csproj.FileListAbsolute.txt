@@ -1,0 +1,14 @@
+C:\Users\asus\Documents\GitHub\MTS.WebApiDemo\MTS.WebApiDemo\MTS.WebApiDemo\bin\Debug\netcoreapp2.2\MTS.WebApiDemo.deps.json
+C:\Users\asus\Documents\GitHub\MTS.WebApiDemo\MTS.WebApiDemo\MTS.WebApiDemo\bin\Debug\netcoreapp2.2\MTS.WebApiDemo.runtimeconfig.json
+C:\Users\asus\Documents\GitHub\MTS.WebApiDemo\MTS.WebApiDemo\MTS.WebApiDemo\bin\Debug\netcoreapp2.2\MTS.WebApiDemo.runtimeconfig.dev.json
+C:\Users\asus\Documents\GitHub\MTS.WebApiDemo\MTS.WebApiDemo\MTS.WebApiDemo\bin\Debug\netcoreapp2.2\MTS.WebApiDemo.dll
+C:\Users\asus\Documents\GitHub\MTS.WebApiDemo\MTS.WebApiDemo\MTS.WebApiDemo\bin\Debug\netcoreapp2.2\MTS.WebApiDemo.pdb
+C:\Users\asus\Documents\GitHub\MTS.WebApiDemo\MTS.WebApiDemo\MTS.WebApiDemo\obj\Debug\netcoreapp2.2\MTS.WebApiDemo.csprojAssemblyReference.cache
+C:\Users\asus\Documents\GitHub\MTS.WebApiDemo\MTS.WebApiDemo\MTS.WebApiDemo\obj\Debug\netcoreapp2.2\MTS.WebApiDemo.csproj.CoreCompileInputs.cache
+C:\Users\asus\Documents\GitHub\MTS.WebApiDemo\MTS.WebApiDemo\MTS.WebApiDemo\obj\Debug\netcoreapp2.2\MTS.WebApiDemo.RazorAssemblyInfo.cache
+C:\Users\asus\Documents\GitHub\MTS.WebApiDemo\MTS.WebApiDemo\MTS.WebApiDemo\obj\Debug\netcoreapp2.2\MTS.WebApiDemo.RazorAssemblyInfo.cs
+C:\Users\asus\Documents\GitHub\MTS.WebApiDemo\MTS.WebApiDemo\MTS.WebApiDemo\obj\Debug\netcoreapp2.2\MTS.WebApiDemo.AssemblyInfoInputs.cache
+C:\Users\asus\Documents\GitHub\MTS.WebApiDemo\MTS.WebApiDemo\MTS.WebApiDemo\obj\Debug\netcoreapp2.2\MTS.WebApiDemo.AssemblyInfo.cs
+C:\Users\asus\Documents\GitHub\MTS.WebApiDemo\MTS.WebApiDemo\MTS.WebApiDemo\obj\Debug\netcoreapp2.2\MTS.WebApiDemo.RazorTargetAssemblyInfo.cache
+C:\Users\asus\Documents\GitHub\MTS.WebApiDemo\MTS.WebApiDemo\MTS.WebApiDemo\obj\Debug\netcoreapp2.2\MTS.WebApiDemo.dll
+C:\Users\asus\Documents\GitHub\MTS.WebApiDemo\MTS.WebApiDemo\MTS.WebApiDemo\obj\Debug\netcoreapp2.2\MTS.WebApiDemo.pdb

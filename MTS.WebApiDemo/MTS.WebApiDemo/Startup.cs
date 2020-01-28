@@ -42,6 +42,9 @@ namespace MTS.WebApiDemo
             }
 
             app.UseHttpsRedirection();
+            //app.UseMvc(config => {
+            //    config.MapRoute("DefaultRoute", "api/{controller}/{action}");
+            //}); 
             app.UseMvc();
         }
     }
