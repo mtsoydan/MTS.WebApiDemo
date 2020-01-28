@@ -4,6 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using MTS.WebApiDemo.DataAcces;
+using MTS.WebApiDemo.Entities;
 
 namespace MTS.WebApiDemo.Controllers
 {
@@ -26,7 +27,7 @@ namespace MTS.WebApiDemo.Controllers
 
 
 
-        [HttpGet("{productID}")] 
+        [HttpGet("{productID}")]
         public IActionResult Get(int productID)
         {
             try
@@ -44,8 +45,25 @@ namespace MTS.WebApiDemo.Controllers
 
                 return BadRequest();
             }
-           
 
+
+        }
+
+        public IActionResult Post(/*[FromBody] Json İçin*/ Product product)
+        {
+            try
+            {
+                _productDal.Add(product);
+                //201 created;
+                return new StatusCodeResult(201);
+
+
+            }
+            catch (Exception ex)
+            {
+
+                return BadRequest(ex.Message);
+            }
         }
     }
 }
