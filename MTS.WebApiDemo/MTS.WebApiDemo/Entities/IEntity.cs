@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace MTS.WebApiDemo.Entities
 {
-    interface IEntity
+   public interface IEntity
     {
     }
 }

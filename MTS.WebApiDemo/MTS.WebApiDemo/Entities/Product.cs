@@ -11,6 +11,6 @@ namespace MTS.WebApiDemo.Entities
         public string ProductName { get; set; }
         public int CategoryID{ get; set; }
         public decimal UnitPrice { get; set; }
-        public short UnitInStock { get; set; }
+        public short UnitsInStock { get; set; }
     }
 }
