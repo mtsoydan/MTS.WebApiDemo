@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -12,6 +13,7 @@ using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
 using MTS.WebApiDemo.DataAcces;
 using MTS.WebApiDemo.Formatters;
+using MTS.WebApiDemo.Middlewares;
 
 namespace MTS.WebApiDemo
 {
@@ -51,6 +53,7 @@ namespace MTS.WebApiDemo
             //app.UseMvc(config => {
             //    config.MapRoute("DefaultRoute", "api/{controller}/{action}");
             //}); 
+            app.UseMiddleware<AuthenticationMiddleWares>();
             app.UseMvc();
         }
     }
