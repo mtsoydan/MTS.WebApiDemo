@@ -101,5 +101,20 @@ namespace MTS.WebApiDemo.Controllers
                 return BadRequest(ex.Message);
             }
         }
+
+        [HttpGet("GetProductDetails")]
+        public IActionResult ProductDetail()
+        {
+            try
+            {
+                var result = _productDal.GetProductWithModel();
+                return Ok(result);
+            }
+            catch (Exception ex)
+            {
+
+                return BadRequest(ex.Message);
+            }
+        }
     }
 }
