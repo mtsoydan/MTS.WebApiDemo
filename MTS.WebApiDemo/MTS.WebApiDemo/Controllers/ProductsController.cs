@@ -48,7 +48,7 @@ namespace MTS.WebApiDemo.Controllers
 
 
         }
-
+        [HttpPost]
         public IActionResult Post(/*[FromBody] Json İçin*/ Product product)
         {
             try
@@ -56,6 +56,42 @@ namespace MTS.WebApiDemo.Controllers
                 _productDal.Add(product);
                 //201 created;
                 return new StatusCodeResult(201);
+
+
+            }
+            catch (Exception ex)
+            {
+
+                return BadRequest(ex.Message);
+            }
+        }
+
+        [HttpPut]
+        public IActionResult Put(Product product)
+        {
+            try
+            {
+                _productDal.Update(product);
+                //201 created;
+                return Ok(product);
+
+
+            }
+            catch (Exception ex)
+            {
+
+                return BadRequest(ex.Message);
+            }
+        }
+        [HttpDelete("{ProductID}")]
+        public IActionResult Delete(int ProductID)
+        {
+            try
+            {
+                Product product = _productDal.Get(p => p.ProductID == ProductID);
+                _productDal.Delete(product);
+                //201 created;
+                return Ok(product);
 
 
             }
